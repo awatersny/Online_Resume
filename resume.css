@@ -40,7 +40,7 @@ header {
   flex-grow: 1;
 }
 
-#details>ul {
+#details > ul {
   list-style: none;
 }
 
@@ -90,9 +90,11 @@ section {
 
 aside {
   /* border: 1px solid green; */
+  padding: 20px;
   flex-grow: 1;
 }
 
-aside>h2 {
+aside > h2 {
   text-align: center;
+  border-bottom: 3px ridge white;
 }
