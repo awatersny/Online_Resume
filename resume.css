@@ -42,6 +42,10 @@ header {
   list-style: none;
 }
 
+a {
+  color: white;
+}
+
 #about {
   width: 100%;
   text-align: center;
