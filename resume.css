@@ -24,9 +24,10 @@ header {
 #box1 {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   flex-grow: 1;
   padding: 10px;
-  border-right: 3px ridge white;
+  border: 3px ridge white;
 }
 
 /* #name {
@@ -35,6 +36,7 @@ header {
 } */
 
 #details {
+  border: 3px ridge white;
   flex-grow: 1;
 }
 
@@ -49,7 +51,7 @@ a {
 #about {
   width: 100%;
   text-align: center;
-  border-top: 3px ridge white;
+  /* border-top: 3px ridge white; */
 }
 
 .img-container {
