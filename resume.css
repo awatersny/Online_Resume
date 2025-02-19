@@ -10,10 +10,7 @@
   height: 50%;
   margin: 0 auto;
   padding: 10px;
-}
-
-ul {
-  list-style: none;
+  box-shadow: 0 5px 11px black;
 }
 
 header {
@@ -34,6 +31,10 @@ header {
 
 #details {
   flex-grow: 1;
+}
+
+#details>ul {
+  list-style: none;
 }
 
 #about {
@@ -57,14 +58,14 @@ header {
 
 main {
   display: flex;
+  border: 1px solid red;
 }
 
 section {
   flex-direction: column;
   border: 1px solid blue;
-  flex-grow: 2;
 }
 
 aside {
-  flex-grow: 1;
+  width: 75%;
 }
