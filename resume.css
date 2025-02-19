@@ -1,3 +1,41 @@
 body {
   margin: 0;
+  height: 100vh;
+}
+
+/* section {
+  flex-direction: column;
+  border: 1px solid blue;
+} */
+
+/* header {
+  display: flex;
+  justify-content: space-between;
+} */
+
+#box1 {
+  display: flex;
+}
+
+#box1>div {
+  border: 1px solid red;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  width: 75%;
+  height: 75%;
+  margin: 0 auto;
+}
+
+.img-container {
+  height: 200px;
+  width: 200px;
+}
+
+#me {
+  height: 200px;
+  width: 200px;
 }
