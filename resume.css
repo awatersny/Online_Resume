@@ -1,8 +1,10 @@
-/* body {
-  height: 100vh;
-} */
+body {
+  background-color: #aaa;
+}
 
 .container {
+  background-color: #1e1e1e;
+  color: white;
   display: flex;
   flex-direction: column;
   border: 1px solid black;
@@ -10,7 +12,8 @@
   height: 60%;
   margin: 0 auto;
   padding: 10px;
-  box-shadow: 0 5px 11px black;
+  border: 5px outset white;
+  box-shadow: 10px 20px 11px black;
 }
 
 header {
@@ -22,6 +25,8 @@ header {
   display: flex;
   justify-content: space-between;
   flex-grow: 1;
+  padding: 10px;
+  border-right: 3px ridge white;
 }
 
 /* #name {
@@ -40,15 +45,13 @@ header {
 #about {
   width: 100%;
   text-align: center;
+  border-top: 3px ridge white;
 }
-
-/* #box1>div {
-  border: 1px solid red;
-} */
 
 .img-container {
   height: 180px;
   width: 180px;
+  border: 3px inset white;
 }
 
 #me {
@@ -58,12 +61,14 @@ header {
 
 main {
   display: flex;
-  border: 1px solid red;
+  /* border: 1px solid red; */
+  border-top: 3px ridge white;
 }
 
 section {
-  flex-direction: column;
-  border: 1px solid blue;
+  flex-grow: 1;
+  padding: 20px;
+  border-right: 3px ridge white;
 }
 
 .description {
@@ -72,7 +77,8 @@ section {
 }
 
 aside {
-  width: 30%;
+  /* border: 1px solid green; */
+  flex-grow: 1;
 }
 
 aside>h2 {
