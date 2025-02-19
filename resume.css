@@ -3,15 +3,19 @@ body {
   height: 100vh;
 }
 
-/* section {
+section {
   flex-direction: column;
   border: 1px solid blue;
-} */
+}
 
-/* header {
+ul {
+  list-style: none;
+}
+
+header {
   display: flex;
-  justify-content: space-between;
-} */
+  flex-wrap: wrap;
+}
 
 #box1 {
   display: flex;
